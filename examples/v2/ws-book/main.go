@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2"
+	"github.com/slumber1122/bitfinex-api-go/v2"
 )
 
 func main() {

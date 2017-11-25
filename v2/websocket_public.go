@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bitfinexcom/bitfinex-api-go/utils"
+	"github.com/slumber1122/bitfinex-api-go/utils"
 )
 
 type unsubscribeMsg struct {

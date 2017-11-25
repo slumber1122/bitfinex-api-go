@@ -1,6 +1,8 @@
 package bitfinex
 
-import ()
+import (
+	"fmt"
+)
 
 type Ticker struct {
 	Symbol          string
@@ -18,14 +20,10 @@ type Ticker struct {
 	Low             float64
 }
 
+func (t *Ticker) String() string{
+	return fmt.Sprintf("Symbol:%v, LastPrice:%v", t.Symbol, t.LastPrice)
+
+}
+
 type TickerUpdate Ticker
 type TickerSnapshot []Ticker
-
-//type Trade struct {
-//ID     int64
-//MTS    int64
-//Amount float64
-//Price  float64
-//Rate   float64
-//Period int64
-//}

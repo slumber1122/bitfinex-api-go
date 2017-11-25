@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v1"
+	"github.com/slumber1122/bitfinex-api-go/v1"
 )
 
 func main() {

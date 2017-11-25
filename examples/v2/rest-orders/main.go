@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2"
+	"github.com/slumber1122/bitfinex-api-go/v2"
 )
 
 // Set BFX_APIKEY and BFX_SECRET as :
